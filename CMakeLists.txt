@@ -6,7 +6,7 @@ cmake_minimum_required (VERSION 3.8)
 project ("AdventOfCode")
 
 # Add source to this project's executable.
-add_executable (AdventOfCode "AdventOfCode.cpp" "AdventOfCode.h" "include/DayOne.h" "src/DayOne.cpp" "include/DayTwo.h" "include/Day.h" "src/DayTwo.cpp" "src/DayThree.cpp" "include/DayThree.h")
+add_executable (AdventOfCode "AdventOfCode.cpp" "AdventOfCode.h"  "src/DayOne.cpp"  "include/Day.h" "src/DayTwo.cpp" "src/DayThree.cpp"   "src/DayFour.cpp")
 target_include_directories (AdventOfCode PRIVATE "include")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

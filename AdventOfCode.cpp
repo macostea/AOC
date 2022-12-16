@@ -2,7 +2,7 @@
 //
 
 #include "AdventOfCode.h"
-#include "DayThree.h"
+#include "Day.h"
 
 using namespace std;
 
@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 		path = argv[1];
 	}
 
-	Day *day = new DayThree();
+	Day *day = new DayFour();
 	int solution = day->solution(path);
 	if (solution == -1) {
 		std::cout << "Failed to get solution" << std::endl;

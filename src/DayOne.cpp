@@ -1,9 +1,10 @@
-#include "DayOne.h"
+#include "Day.h"
 #include <string>
 #include <fstream>
 #include <sstream>
 #include <vector>
 #include <numeric>
+#include <Day.h>
 
 int DayOne::solution(std::string input) {
 	std::ifstream inputFile(input);
