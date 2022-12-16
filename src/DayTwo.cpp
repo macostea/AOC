@@ -23,7 +23,7 @@ char requiredPlayer(char opponent, char outcome) {
 	}
 }
 
-int DayTwo::solution(std::string input) {
+int Day::solution2(std::string input) {
 	std::ifstream inputFile(input);
 	if (!inputFile.good()) {
 		return -1;

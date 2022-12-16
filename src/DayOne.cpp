@@ -6,7 +6,7 @@
 #include <numeric>
 #include <Day.h>
 
-int DayOne::solution(std::string input) {
+int Day::solution1(std::string input) {
 	std::ifstream inputFile(input);
 	if (!inputFile.good()) {
 		return -1;

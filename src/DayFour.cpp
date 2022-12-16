@@ -4,7 +4,7 @@
 #include <sstream>
 #include <iostream>
 
-int DayFour::solution(std::string input) {
+int Day::solution4(std::string input) {
 	std::ifstream inputFile(input);
 	if (!inputFile.good()) {
 		return -1;

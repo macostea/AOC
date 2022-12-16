@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <numeric>
 
-int DayThree::solution(std::string input) {
+int Day::solution3(std::string input) {
 	std::ifstream inputFile(input);
 	if (!inputFile.good()) {
 		return -1;
