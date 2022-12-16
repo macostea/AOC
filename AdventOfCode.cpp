@@ -14,12 +14,12 @@ int main(int argc, char **argv)
 	}
 
 	Day *day = new Day();
-	auto solution = day->solution5(path);
+	auto solution = day->solution6(path);
 	//if (solution == -1) {
 	//	std::cout << "Failed to get solution" << std::endl;
 	//	return -1;
 	//}
 
-	std::cout << "Day 5 solution: " << solution << std::endl;
+	std::cout << "Day 6 solution: " << solution << std::endl;
 	return 0;
 }
