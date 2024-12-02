@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/2024/build/AdventOfCode",
-            "args": ["${workspaceFolder}/2024/data/day1.input"],
+            "args": ["${workspaceFolder}/2024/data/day2.input"],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
